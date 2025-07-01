@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SkillProof – Mint your Skills as NFT Proof",
+  title: "OwnMySkills – Mint your Skills as NFT Proof",
   description:
     "Verify your freelance work, request client approval, and mint your skills as NFTs with SkillProof – the trustless proof of your real-world contributions.",
   keywords: [
