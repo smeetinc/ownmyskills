@@ -1,0 +1,39 @@
+{
+  "name": "ownmyskills",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup-storacha": "node scripts/setup-storacha.js"
+  },
+  "dependencies": {
+    "@storacha/client": "^1.4.0",
+    "@supabase/supabase-js": "^2.50.2",
+    "@tanstack/react-query": "^5.81.4",
+    "@web3-storage/w3up-client": "^17.3.0",
+    "connectkit": "^1.9.1",
+    "dotenv": "^16.5.0",
+    "lucide-react": "^0.522.0",
+    "next": "15.3.4",
+    "pinata-web3": "^0.5.4",
+    "pino-pretty": "^13.0.0",
+    "postcss": "^8.5.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "viem": "^2.31.4",
+    "wagmi": "^2.15.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^20",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5"
+  }
+}
