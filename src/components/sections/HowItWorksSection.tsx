@@ -34,17 +34,17 @@ export const HowItWorksSection = () => {
       <div className="w-4/5 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-lg md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
             How SkillProof Works
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base lg:text-xl text-gray-600 max-w-3xl mx-auto">
             Three simple steps to transform your completed work into permanent,
             verifiable credentials.
           </p>
         </div>
 
         {/* Steps Grid */}
-        <div className="grid grid-cols-11 gap-4">
+        <div className="flex flex-col lg:grid grid-cols-11 gap-4 ">
           <div className="relative p-[2px] rounded-xl bg-gradient-to-b from-black to-[#2A56C6] col-span-3 hover:from-[#2A56C6] hover:to-black transition-all duration-300">
             <div className="rounded-xl bg-white  p-6 h-full">
               {/* Icon */}
@@ -74,7 +74,7 @@ export const HowItWorksSection = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="hidden lg:flex items-center justify-center">
             <LuArrowBigRight className="text-linearTwo font-bold h-8 w-12" />
           </div>
           <div className="relative p-[2px] rounded-xl bg-gradient-to-b from-black to-[#2A56C6] col-span-3">
@@ -104,7 +104,7 @@ export const HowItWorksSection = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="hidden lg:flex items-center justify-center">
             <LuArrowBigRight className="text-linearTwo font-bold h-8 w-12" />
           </div>
 
