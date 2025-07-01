@@ -189,13 +189,13 @@ export default function Dashboard() {
           </div>
         </div>
       )}
-      <div className="flex justify-between items-center my-4 overflow-x-auto flex-col md:flex-row">
-        <h4 className="text-sm md:text-lg lg:text-xl font-bold">
+      <div className="flex justify-between items-center my-4">
+        <h4 className="text-xl font-bold">
           My Skill NFT ({filteredNfts.length})
         </h4>
         <div className="flex items-center gap-4">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-2 md:w-4 h-4" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
             <input
               type="search"
               value={searchTerm}
@@ -220,11 +220,8 @@ export default function Dashboard() {
           </div>
           <div className="relative">
             <Link href="/request_verification">
-              <button className="hidden bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white px-4 py-2 rounded-lg lg:flex items-center space-x-2 transition-colors">
-                Request New Verification
-              </button>
-              <button className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors font-bold lg:hidden">
-                +
+              <button className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors">
+                Request Verification
               </button>
             </Link>
           </div>

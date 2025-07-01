@@ -228,10 +228,31 @@ export default function RequestWorkVerification() {
     }
   };
 
+  if (isUploading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Uploading Files...Please wait</p>
+        </div>
+      </div>
+    );
+  }
+  if (isSubmitting) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Submitting request... Please wait</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-[#F1F1F1] pt-16 ">
       {/* Main Content */}
-      <div className="w-4/5 mx-auto px-4 py-8">
+      <div className="w-full lg:w-4/5 mx-auto px-2 lg:px-4 py-8">
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
           <h2 className="text-xl font-semibold text-gray-900 text-center mb-8">
             Request Work Verification
