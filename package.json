@@ -16,6 +16,7 @@
     "@web3-storage/w3up-client": "^17.3.0",
     "connectkit": "^1.9.1",
     "dotenv": "^16.5.0",
+    "framer-motion": "^12.22.0",
     "lucide-react": "^0.522.0",
     "next": "15.3.4",
     "pinata-web3": "^0.5.4",
