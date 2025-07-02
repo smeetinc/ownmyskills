@@ -64,7 +64,7 @@ export default function TrueSkillNFT() {
             description: work.projectDescription,
             tags: work.technologies,
             client: "Verified Client",
-            value: `${work.projectValue} ETH`,
+            value: `${work.projectValue} FLOW`,
             completedDate: work.completedDate,
             projectLink: work.projectLink,
             freelancerWallet: work.freelancerWallet,

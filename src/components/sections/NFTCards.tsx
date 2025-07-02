@@ -52,7 +52,7 @@ export default function Dashboard() {
             description: work.projectDescription,
             tags: work.technologies,
             client: "Verified Client", // You might want to add client info to your database
-            value: `${work.projectValue} ETH`,
+            value: `${work.projectValue} FLOW`,
             completedDate: work.completedDate,
             projectLink: work.projectLink,
             freelancerWallet: work.freelancerWallet,
@@ -159,11 +159,11 @@ export default function Dashboard() {
                 {allNfts
                   .reduce(
                     (sum, nft) =>
-                      sum + parseFloat(nft.value.replace(" ETH", "")),
+                      sum + parseFloat(nft.value.replace(" FLOW", "")),
                     0
                   )
                   .toFixed(1)}{" "}
-                ETH
+                FLOW
               </p>
               <p className="text-sm text-gray-600">Total Value</p>
             </div>
@@ -178,11 +178,11 @@ export default function Dashboard() {
                 {(
                   allNfts.reduce(
                     (sum, nft) =>
-                      sum + parseFloat(nft.value.replace(" ETH", "")),
+                      sum + parseFloat(nft.value.replace(" FLOW", "")),
                     0
                   ) / allNfts.length
                 ).toFixed(2)}{" "}
-                ETH
+                FLOW
               </p>
               <p className="text-sm text-gray-600">Avg. Project Value</p>
             </div>

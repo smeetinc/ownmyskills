@@ -1,5 +1,3 @@
-/* File: components/DashboardStats.tsx */
-
 "use client";
 
 interface Props {
@@ -25,7 +23,7 @@ export default function DashboardStats({
         </div>
         <div>
           <p className="text-2xl font-bold text-green-600">
-            {totalValue.toFixed(1)} ETH
+            {totalValue.toFixed(1)} FLOW
           </p>
           <p className="text-sm text-gray-600">Total Value</p>
         </div>
@@ -35,7 +33,7 @@ export default function DashboardStats({
         </div>
         <div>
           <p className="text-2xl font-bold text-orange-600">
-            {averageValue.toFixed(2)} ETH
+            {averageValue.toFixed(2)} FLOW
           </p>
           <p className="text-sm text-gray-600">Avg. Project Value</p>
         </div>

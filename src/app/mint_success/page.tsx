@@ -129,7 +129,7 @@ export default function NFTMintedSuccessfully() {
             </div>
             <div className="text-right">
               <p className="text-blue-100 text-sm mb-1">Minted on</p>
-              <p className="font-semibold">Ethereum</p>
+              <p className="font-semibold">FLOW</p>
             </div>
           </div>
         </div>
@@ -164,11 +164,11 @@ export default function NFTMintedSuccessfully() {
                   <button
                     onClick={() =>
                       openInNewTab(
-                        `https://etherscan.io/address/${mintingData.walletAddress}`
+                        `https://evm-testnet.flowscan.io/address/${mintingData.walletAddress}`
                       )
                     }
                     className="p-1 hover:bg-gray-200 rounded transition-colors"
-                    title="View on Etherscan"
+                    title="View on Flowscan"
                   >
                     <ExternalLink className="w-4 h-4 text-gray-500" />
                   </button>
@@ -244,11 +244,11 @@ export default function NFTMintedSuccessfully() {
                   <button
                     onClick={() =>
                       openInNewTab(
-                        `https://etherscan.io/tx/${mintingData.transactionHash}`
+                        `https://evm-testnet.flowscan.io/tx/${mintingData.transactionHash}`
                       )
                     }
                     className="p-1 hover:bg-gray-200 rounded transition-colors"
-                    title="View on Etherscan"
+                    title="View on Flowscan"
                   >
                     <ExternalLink className="w-4 h-4 text-gray-500" />
                   </button>
