@@ -11,11 +11,9 @@ export const HowItWorksSection = () => {
       title: "Complete Work",
       desc: (
         <>
-          Finish your freelance project and deliver exceptional <br />
-          <span className="text-linearThree">
-            results to your client as usual
-          </span>
-          .
+          Deliver your best work to your client, just as you .
+          <br />
+          <span className="text-linearThree">normally would</span>.
         </>
       ),
       delay: 0,
@@ -29,8 +27,8 @@ export const HowItWorksSection = () => {
       ),
       desc: (
         <>
-          <span className="text-linearTwo">Client reviews</span> and digitally
-          signs off on your completed work through our secure platform.
+          Your client securely approves your finished work with a{" "}
+          <span className="text-linearTwo">digital signature</span>.
         </>
       ),
       delay: 0.2,
@@ -71,7 +69,7 @@ export const HowItWorksSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            How SkillProof Works
+            How OwnMySkills Works
           </motion.h2>
           <motion.p
             className="text-base lg:text-xl text-gray-600 max-w-3xl mx-auto"

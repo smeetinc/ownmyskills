@@ -4,42 +4,48 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function SkillProofFeatures() {
+export default function Features() {
   const features = [
     {
+      id: "wallet",
       title: "Wallet-Based Login",
       description:
-        "Connect with MetaMask or any wallet to verify and own your work—no passwords needed.",
+        "Connect securely with your wallet to own your professional identity – no passwords, just control over your verified work.",
       icon: "/frame5.png",
     },
     {
+      id: "client",
       title: "Client Verification",
       description:
-        "Secure digital signatures from clients provide authentic proof of work completion.",
+        "Clients digitally approve your completed projects, creating unforgeable, client-approved proof of your skills.",
       icon: "/frame6.png",
     },
     {
+      id: "global",
       title: "Global Portfolio",
       description:
-        "Showcase your verified work history to clients worldwide with blockchain-backed proof.",
+        "Build a dynamic, blockchain-backed portfolio that showcases your verified expertise to the world, beyond traditional resumes.",
       icon: "/frame7.png",
     },
     {
+      id: "instant",
       title: "Instant Minting",
       description:
-        "Automated NFT creation upon client verification with low gas fees and fast processing.",
+        "Seamlessly transform client-approved work into permanent, immutably on-chain Skill NFTs.",
       icon: "/frame8.png",
     },
     {
+      id: "easy",
       title: "Easy Integration",
       description:
-        "Simple tools for clients to verify work without needing deep web3 knowledge.",
+        "Effortless tools make client verification simple for anyone, removing Web3 barriers to get your work approved.",
       icon: "/frame3.png",
     },
     {
+      id: "public",
       title: "Public Skill Gallery",
       description:
-        "Explore verified work from real freelancers. Browse Skill NFTs tied to real contributions.",
+        "Explore a transparent gallery of verifiable skills, allowing you to discover real contributions beyond unreliable portfolios.",
       icon: "/frame9.png",
     },
   ];
@@ -52,7 +58,7 @@ export default function SkillProofFeatures() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h1 className="text-center font-bold text-3xl">SkillProof Features</h1>
+        <h1 className="text-center font-bold text-3xl">OwnMySkill Features</h1>
         <p className="my-6 text-center text-gray-600 max-w-3xl mx-auto">
           Everything you need to build and showcase your professional reputation
           on-chain.
@@ -82,6 +88,7 @@ export default function SkillProofFeatures() {
             }}
             transition={{ duration: 0.4, ease: "easeOut" }}
             className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition"
+            id={feature.id}
           >
             {/* Icon */}
             <div className="w-fit h-fit mb-4">
