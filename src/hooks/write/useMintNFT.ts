@@ -46,7 +46,7 @@ export function useMintNFT() {
         tokenId: hash,
         transactionHash: hash,
         mintedAt: new Date().toLocaleDateString(),
-        network: 'Ethereum',
+        network: 'FLOW',
         status: 'completed'
       }
       

@@ -485,7 +485,7 @@ export default function ClientWorkVerification() {
                 <div className="flex justify-between">
                   <span className="text-gray-600">Project Value</span>
                   <span className="font-medium text-gray-900">
-                    {verificationData.projectValue} ETH
+                    {verificationData.projectValue} FLOW
                   </span>
                 </div>
                 <div className="flex justify-between">

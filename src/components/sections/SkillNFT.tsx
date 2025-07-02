@@ -9,7 +9,7 @@ const allNfts = [
       "Integrated multi-chain wallet functionality into client’s existing platform with enhanced security.",
     tags: ["Web3.js", "Solidity", "Filecoin"],
     client: "Blockchain Solutions",
-    value: "3.2 ETH",
+    value: "3.2 FLOW",
   },
   {
     title: "Food Blog",
@@ -18,7 +18,7 @@ const allNfts = [
       "Food mastery on the blockchain. You can build a responsive website.",
     tags: ["Web3.js", "Solidity", "Filecoin"],
     client: "Tasty Hand Solutions",
-    value: "5.0 ETH",
+    value: "5.0 FLOW",
   },
   {
     title: "Crypto Wallet Integration",
@@ -27,7 +27,7 @@ const allNfts = [
       "Integrated multi-chain wallet functionality into client’s existing platform with enhanced security.",
     tags: ["Web3.js", "Solidity", "Filecoin"],
     client: "Blockchain Solutions",
-    value: "3.2 ETH",
+    value: "3.2 FLOW",
   },
   {
     title: "NFT Marketplace UI",
@@ -36,7 +36,7 @@ const allNfts = [
       "Designed an intuitive NFT trading interface for collectors and creators.",
     tags: ["React", "Tailwind CSS", "UX"],
     client: "PixelTrade",
-    value: "2.8 ETH",
+    value: "2.8 FLOW",
   },
   {
     title: "Token Vesting Dashboard",
@@ -44,15 +44,15 @@ const allNfts = [
     description: "Built a secure dashboard for token release schedules.",
     tags: ["Next.js", "Viem", "Hardhat"],
     client: "LaunchHub",
-    value: "4.6 ETH",
+    value: "4.6 FLOW",
   },
   {
     title: "DAO Voting System",
     image: "/skill2.png",
     description: "Engineered a blockchain voting mechanism for DAOs.",
-    tags: ["Ethers.js", "Solidity", "ZK"],
+    tags: ["FLOWers.js", "Solidity", "ZK"],
     client: "GovBlocks",
-    value: "6.1 ETH",
+    value: "6.1 FLOW",
   },
 ];
 

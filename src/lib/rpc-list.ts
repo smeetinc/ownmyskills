@@ -1,8 +1,8 @@
 
 const RPC = {
-  84532: [
-      "https://sepolia.base.org",
-      "https://sepolia-explorer.base.org",
+  545: [
+      "https://testnet.evm.nodes.onflow.org",
+      "https://evm-testnet.flowscan.io",
     ]
   }
   
