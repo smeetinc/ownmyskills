@@ -35,7 +35,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <motion.div
-            className="inline-flex items-center px-4 py-2 bg-blue-600/20 border border-blue-400/30 rounded-full text-blue-200 text-sm mb-8"
+            className="inline-flex items-center px-4 py-2 bg-transparent border border-[#2A56C6] rounded-sm text-[#BE2BD8] text-sm mb-8"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
@@ -49,10 +49,7 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Mint Your Skills as{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              NFT Proof
-            </span>
+            Your Verified Professional Identity.
           </motion.h1>
 
           <motion.p
@@ -61,9 +58,8 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            SkillProof helps freelancers verify completed work through NFTs
-            signed by clients, building a trustworthy network relying on
-            traditional resumes or reviews.
+            Go beyond resumes and portfolios. Showcase your client-approved
+            work, immutably on-chain.
           </motion.p>
 
           <motion.div
@@ -73,10 +69,10 @@ export const HeroSection = () => {
             transition={{ delay: 0.8 }}
           >
             <button
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg flex items-center space-x-2 text-lg font-semibold transition-colors cursor-pointer"
+              className="bg-gradient-to-r from-linearOne to-linearThree text-white px-8 py-4 rounded-lg flex items-center space-x-2 text-lg font-semibold hover:opacity-90 border border-transparent transition-all cursor-pointer"
               onClick={handleFreelance}
             >
-              <span>Start Building Proof</span>
+              <span>Get Verified Now</span>
               <ArrowRight className="w-5 h-5" />
             </button>
 
@@ -85,7 +81,7 @@ export const HeroSection = () => {
               className="cursor-pointer"
               target="_blank"
             >
-              <button className="border border-white/30 hover:bg-white/10 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+              <button className="bg-gradient-to-r from-linearOne to-linearThree text-white px-8 py-4 rounded-lg flex items-center space-x-2 text-lg font-semibold hover:opacity-90 border border-transparent transition-all cursor-pointer">
                 View Demo
               </button>
             </Link>

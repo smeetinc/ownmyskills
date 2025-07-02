@@ -17,27 +17,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "OwnMySkills – Mint your Skills as NFT Proof",
+  title: "OwnMySkills – Your Verified Professional Identity",
   description:
-    "Verify your freelance work, request client approval, and mint your skills as NFTs with SkillProof – the trustless proof of your real-world contributions.",
+    "Verify your freelance work, request client approval, and mint your skills as NFTs with OwnMySkills – the trustless proof of your real-world contributions.",
   keywords: [
     "mint skills",
     "NFT skills",
     "make my skills NFT",
     "client approval",
     "request verification",
-    "SkillProof",
+    "OwnMySkills",
     "freelance verification",
     "web3 proof of work",
     "blockchain resume",
   ],
-  metadataBase: new URL("https://skillproof-coral.vercel.app"),
+  metadataBase: new URL("https://ownmyskills.vercel.app"),
   openGraph: {
-    title: "SkillProof – Mint your Skills as NFT Proof",
+    title: "OwnMySkills – Your Verified Professional Identity",
     description:
       "The fastest way for freelancers to prove verified work. Mint your skills as NFTs and build a verified portfolio.",
-    url: "https://skillproof-coral.vercel.app",
-    siteName: "SkillProof",
+    url: "https://ownmyskills.vercel.app",
+    siteName: "OwnMySkills",
     images: [
       {
         url: "/image.png",
@@ -50,14 +50,14 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SkillProof – Mint your Skills as NFT Proof",
+    title: "OwnMySkills – Your Verified Professional Identity.",
     description:
       "Verify freelance work and mint your verified skills as NFTs. Proof of work, powered by web3.",
     images: ["/image.png"],
     creator: "@yourTwitterHandle",
   },
 };
-<meta name="apple-mobile-web-app-title" content="SkillProof" />;
+<meta name="apple-mobile-web-app-title" content="OwnMySkills" />;
 
 export default function RootLayout({
   children,

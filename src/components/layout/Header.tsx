@@ -36,34 +36,37 @@ export default function Header() {
               height={35}
               className="object-contain"
             />
-            <span className="text-xl font-bold text-gray-900">OwnMySkills</span>
+            <span className="text-xl font-bold text-[#171F42] italic">
+              OwnMySkills
+            </span>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <a
+              href="/"
+              className="text-black hover:text-[#171F42] transition-colors"
+            >
+              Home
+            </a>
+            <a
               href="/#how-it-works"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="text-black hover:text-[#171F42] transition-colors"
             >
               How It Works
             </a>
-            <a
-              href="/#my-nfts"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              My NFTs
-            </a>
-            <a
-              href="/#verify-work"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              Verify Work
-            </a>
+
             <a
               href="/#features"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="text-black hover:text-[#171F42] transition-colors"
             >
               Features
+            </a>
+            <a
+              href="/#my-nfts"
+              className="text-black hover:text-[#171F42] transition-colors"
+            >
+              MySkillNFTs
             </a>
           </nav>
 
@@ -102,28 +105,29 @@ export default function Header() {
       >
         <div className="flex flex-col px-4 py-4 space-y-4">
           <a
+            onClick={() => handleNavClick("/")}
+            className="text-black hover:text-[#171F42] transition-colors cursor-pointer"
+          >
+            Home
+          </a>
+          <a
             onClick={() => handleNavClick("/#how-it-works")}
-            className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
+            className="text-black hover:text-[#171F42] transition-colors cursor-pointer"
           >
             How It Works
           </a>
-          <a
-            onClick={() => handleNavClick("/#my-nfts")}
-            className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
-          >
-            My NFTs
-          </a>
-          <a
-            onClick={() => handleNavClick("/#verify-work")}
-            className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
-          >
-            Verify Work
-          </a>
+
           <a
             onClick={() => handleNavClick("/#features")}
-            className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
+            className="text-black hover:text-[#171F42] transition-colors cursor-pointer"
           >
             Features
+          </a>
+          <a
+            onClick={() => handleNavClick("/#my-nfts")}
+            className="text-black hover:text-[#171F42] transition-colors cursor-pointer"
+          >
+            MySkillNFTs
           </a>
           <div className="pt-4 border-t border-gray-100">
             <ConnectWalletButton />
