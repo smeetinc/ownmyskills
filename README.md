@@ -99,7 +99,7 @@ OwnMySkill is strongly aligned with multiple Protocol Labs hackathon tracks:
 * **Smart Contract:** Solidity (ERC-721 equivalent standard, deployed on Flow EVM)
 * **Blockchain Integration:** Flow Client Library (FCL) for seamless wallet connections and transaction handling.
 * **Decentralized Storage:** IPFS (via Pinata for reliable content addressing of metadata and associated files).
-* **UI Components:** Wagmi + RainbowKit (for wallet connections and UX).
+* **UI Components:** Wagmi + ConnectKit (for wallet connections and UX).
 
 ## 🗓 Roadmap
 
