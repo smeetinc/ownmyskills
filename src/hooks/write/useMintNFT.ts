@@ -1,8 +1,8 @@
 import { useWriteContract, useWaitForTransactionReceipt, useAccount, usePublicClient, useSignMessage } from 'wagmi'
 import { toast } from 'react-hot-toast'
 import { useEffect, useState } from 'react'
-import SKILLPROOF from "@/constants/abis/SkillProof.json"
-import { SKILLPROOF_CONTRACT } from '@/constants/addresses/Skillproof-contract'
+import OwnMySkills from "@/constants/abis/OwnMySkills.json"
+import { OWNMYSKILLS_CONTRACT } from '@/constants/addresses/OwnMySkills-contract'
 import { useRouter } from 'next/navigation'
 
 export function useMintNFT() {
@@ -204,8 +204,8 @@ export function useMintNFT() {
       const bufferedGasPrice = gasPrice ? (gasPrice * BigInt(130)) / BigInt(100) : undefined
 
       const transactionParams = {
-        address: SKILLPROOF_CONTRACT as `0x${string}`,
-        abi: SKILLPROOF,
+        address: OWNMYSKILLS_CONTRACT as `0x${string}`,
+        abi: OwnMySkills,
         functionName: 'mintSkillNFT',
         args: args,
         gasPrice: bufferedGasPrice,
