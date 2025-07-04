@@ -113,6 +113,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div className="my-4 w-full flex items-center justify-center text-white font-semibold">
+        <p> &copy; {new Date().getFullYear()} | All rights reserved</p>
+      </div>
     </footer>
   );
 }
