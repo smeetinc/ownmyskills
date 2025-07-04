@@ -1,5 +1,5 @@
-import SKILLPROOF from "@/constants/abis/SkillProof.json"
-import { SKILLPROOF_CONTRACT } from '@/constants/addresses/Skillproof-contract'
+import OwnMySkills from "@/constants/abis/OwnMySkills.json"
+import { OWNMYSKILLS_CONTRACT } from '@/constants/addresses/OwnMySkills-contract'
 import { useReadContract } from 'wagmi'
 import { useEffect, useState } from "react"
 
@@ -7,8 +7,8 @@ export const useReadAppContract = (functionName: string, args: unknown[] = []) =
   const [isMounted, setIsMounted] = useState(false);
   
   const result = useReadContract({
-    abi: SKILLPROOF,
-    address: SKILLPROOF_CONTRACT,
+    abi: OwnMySkills,
+    address: OWNMYSKILLS_CONTRACT,
     functionName,
     args,
   });
