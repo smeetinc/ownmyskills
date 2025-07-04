@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: ["chocolate-historical-moose-896.mypinata.cloud"],
+    domains: ["green-added-alligator-777.mypinata.cloud"],
   },
 };
 
