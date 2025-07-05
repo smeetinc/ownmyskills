@@ -77,7 +77,7 @@ export const HeroSection = () => {
             </button>
 
             <Link
-              href={"https://youtu.be/QLSysfGhfEQ"}
+              href={"https://youtu.be/e_lDNyq_s2g"}
               className="cursor-pointer"
               target="_blank"
             >
